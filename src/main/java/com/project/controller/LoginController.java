@@ -41,7 +41,7 @@ public class LoginController {
 		User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 		String userName = user.getUsername();
 
-		return new ModelAndView("user/index");
+		return new ModelAndView("user/filemanager");
 	}
 
 	@RequestMapping(value = "/logout", method = { RequestMethod.POST, RequestMethod.GET })
