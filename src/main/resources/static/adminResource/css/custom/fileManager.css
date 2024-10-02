@@ -1,0 +1,17 @@
+.folder-icon{
+  box-shadow: 0px 0px 26px -10px rgba(0, 0, 0, 0.10) !important
+}
+
+.folder-hover:hover{
+  background-color: #f8f9fa !important;
+}
+/* dfe3e759 */
+.path
+{
+  display: inline;
+  line-height: 33px;
+}
+
+#next-path{
+  color: #0f1115;
+}
